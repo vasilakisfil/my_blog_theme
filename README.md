@@ -1,7 +1,7 @@
 # foxslide #
 
-~~Live theme preview available at
-[AdrianArtiles.com](http://www.AdrianArtiles.com).~~
+<del>Live theme preview available at
+[AdrianArtiles.com](http://www.AdrianArtiles.com).</del>
 
 This is a theme built for [Octopress](http://Octopress.org) that is a work in
 progress with inspirations from all over the web. Built on top of
@@ -38,8 +38,8 @@ $ rake generate
 
 ### Demo ###
 
-~~This is the theme currently powering the site at
-[AdrianArtiles.com](http://www.AdrianArtiles.com)~~
+<del>This is the theme currently powering the site at
+[AdrianArtiles.com](http://www.AdrianArtiles.com).</del>
 
 ### Credits ###
 All credits go to sevenadrian for the initial theme.
