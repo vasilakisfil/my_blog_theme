@@ -1,11 +1,14 @@
-<p class="pull-left">
+<p class="span12 pagination-centered">
   <a href="{{ root_url }}/">{{ site.title }}</a>
-  - Copyright &copy; {{ site.time | date: "%Y" }} - {{ site.author }}
+  - Copyright &copy; {{ site.time | date: "%Y" }} -
+    <a href="{{ site.author_site }}">{{ site.author }}</a>
 </p>
+<!--
 <p class="pull-right">
   <span>Powered by <a href="http://octopress.org/">Octopress</a>.</span>
   {% unless site.hide_design_credits %}
     <span>Initially designed by <a href="http://www.AdrianArtiles.com">Adrian Artiles</a>,
-    modified by <a href="http://filippos.vasilak.is">Filippos Vasilakis</a>.</span>
+    modified by <a href="{{ site.author_site }}">Filippos Vasilakis</a>.</span>
   {% endunless %}
 </p>
+-->
