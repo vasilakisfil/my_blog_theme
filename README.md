@@ -1,7 +1,7 @@
 # foxslide #
 
-<del>Live theme preview available at
-[AdrianArtiles.com](http://www.AdrianArtiles.com).</del>
+Live theme preview available at
+[blog.fil.vasilak.is](http://blog.fil.vasilak.is).
 
 This is a theme built for [Octopress](http://Octopress.org) that is a work in
 progress with inspirations from all over the web. Built on top of
@@ -13,24 +13,7 @@ along with instagram and twitter widgets out of the box.
 
 ````
 $ cd yourOctopress
-$ git submodule add https://github.com/sevenadrian/foxslide .themes/foxslide
-$ git submodule update --init
-$ rake install['foxslide']
-$ rake generate
-````
-
-### Grab the latest updates ###
-
-````
-$ cd yourOctopress
-$ git submodule update
-# regenerate, make changes, etc...
-````
-
-### Alternate installation without git submodule ###
-````
-$ cd yourOctopress
-$ git clone https://github.com/sevenadrian/foxslide .themes/foxslide
+$ git clone https://vasilakisfil@bitbucket.org/vasilakisfil/custom\_foxslide.git
 $ rake install['foxslide']
 $ rake generate
 ````
@@ -38,8 +21,8 @@ $ rake generate
 
 ### Demo ###
 
-<del>This is the theme currently powering the site at
-[AdrianArtiles.com](http://www.AdrianArtiles.com).</del>
+Live theme preview available at
+[blog.fil.vasilak.is](http://blog.fil.vasilak.is).
 
 ### Credits ###
 All credits go to sevenadrian for the initial theme.
