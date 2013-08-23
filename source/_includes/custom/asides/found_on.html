@@ -1,8 +1,21 @@
 <h2>found on</h2>
 {% if site.github_user %}
-<a href="https://github.com/{{site.github_user}}/" rel="tooltip" title="Github"><img class="social_icon" title="Github" alt="github icon" src="{{ root_url }}/images/glyphicons_381_github.png"></a>
+<a href="https://github.com/{{site.github_user}}/" rel="tooltip" title="Github"><img class="social_icon" title="Github" alt="github icon" src="{{ root_url }}/images/github-icon.png"></a>
 {% endif %}
 
+{% if site.bitbucket_user %}
+<a href="http://www.bitbucket.org/{{site.bitbucket_user}}" rel="tooltip" title="Bitbucket"><img class="social_icon" title="Bitbucket" alt="Bitbucket icon" src="{{ root_url }}/images/bitbucket-icon.png"></a>
+{% endif %}
+
+{% if site.author_site %}
+<a href="{{site.author_site}}" rel="tooltip" title="Website"><img class="social_icon" title="Website" alt="Author site icon" src="{{ root_url }}/images/website-icon.png"></a>
+{% endif %}
+
+{% if site.url %}
+<a href="{{site.url}}" rel="tooltip" title="Blog"><img class="social_icon" title="Blog" alt="Author bite icon" src="{{ root_url }}/images/blog-icon.png"></a>
+{% endif %}
+
+<!--
 {% if site.stackoverflow_user %}
 <a href="http://stackoverflow.com/users/{{site.stackoverflow_user}}/" rel="tooltip" title="Stack Overflow"><img class="social_icon" title="Stack Overflow" alt="stack overflow icon" src="{{ root_url }}/images/glyphicons_400_stack_overflow.png"></a>
 {% endif %}
@@ -22,7 +35,7 @@
 {% if site.quora_user %}
 <a href="http://www.quora.com/{{site.quora_user}}" rel="tooltip" title="Quora"><img class="social_icon" title="Quora" alt="Quora icon" src="{{ root_url }}/images/glyphicons_385_quora.png"></a>
 {% endif %}
-
+-->
 {% if site.email %}
 <h3>contact at</h3>
 <img class="social_icon email_icon" title="Contact Mail" alt="Contact mail icon" src="{{ root_url }}/images/mail.png">
