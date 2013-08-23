@@ -79,8 +79,15 @@ article h1 {
   border-bottom-width: 1px;
 }
 .wrapper_single {
-  background-color: #F1F1F1;
+  //background-color: #F1F1F1;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #323232;
   background-image: url("/images/heroBack.jpg");
+  background-origin: padding-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
   background-attachment: fixed;
   padding-top: 75px;
   padding-bottom: 75px;
@@ -223,4 +230,8 @@ p {
 }
 .recent_posts {
   list-style-type: disc;
+}
+
+.email_icon {
+  margin-top: -30px;
 }
