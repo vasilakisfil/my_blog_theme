@@ -9,12 +9,21 @@ progress with inspirations from all over the web. Built on top of
 [html5 boilerplate](http://html5boilerplate.com/), and has SEO considerations
 along with instagram and twitter widgets out of the box.
 
-## Installation ##
+The theme was first designed by [sevenandrian](https://github.com/sevenadrian/foxslide) and heavily modified by me.
+
+### What is changed ###
+2. fixed bugs (especially with the background image)
+1. Added custom icons in found_on section
+3. Added image-tag plugin support
+4. Minor changes (add/remove/modify content)
+
+
+### Installation ###
 
 ````
 $ cd yourOctopress
-$ git clone https://vasilakisfil@bitbucket.org/vasilakisfil/custom\_foxslide.git
-$ rake install['foxslide']
+$ git clone https://github.com/vasilakisfil/my_blog_theme.git my_blog_theme
+$ rake install['my_blog_theme'] #you may need to add noglob before rake if you use zsh
 $ rake generate
 ````
 
