@@ -34,4 +34,4 @@ Live theme preview available at
 [blog.fil.vasilak.is](http://blog.fil.vasilak.is).
 
 ### Credits ###
-All credits go to sevenadrian for the initial theme.
+All credits go to [sevenandrian](https://github.com/sevenadrian/foxslide) for the initial theme.
