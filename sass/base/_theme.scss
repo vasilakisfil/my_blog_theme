@@ -1,4 +1,3 @@
-
 .basic-alignment {
   &.left { float: left; margin-right: 1.5em; }
   &.right { float: right; margin-left: 1.5em; }
@@ -35,7 +34,7 @@
   height: 550px;
 }
 #hero-inner {
-  font-family: 'Cantarell', sans-serif;
+  font-family: Verdana, sans-serif;
   margin-top: -25px;
 }
 #hero-inner h1 {
@@ -174,6 +173,7 @@ dt .social_icon {
   margin-bottom: 5px;
 }
 .article-format {
+  font-family: Verdana,sans-serif;
   padding: 2em;
 }
 .archive-article-format {
